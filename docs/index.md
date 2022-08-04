@@ -9,8 +9,8 @@ hero:
     alt: div
   actions:
     - theme: brand
-      text: 开始
-      link: /main/
+      text: 开始使用
+      link: /introduce/introduction
     - theme: alt
       text: View on GitHub
       link: https://github.com/TaiAiAc/electron-vue3-quiet.git
