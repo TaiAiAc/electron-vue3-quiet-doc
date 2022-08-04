@@ -3,7 +3,8 @@ import { version } from '../../package.json'
 
 export default defineConfig({
   title: 'electron-vue3-quiet', // 网站标题
-  description: 'electron-vue3-quiet-doc', //网站描述
+  description:
+    '一个持续更新,坚持使用最新技术的,比较激进的桌面端脚手架! (●ˇ∀ˇ●) ,持续施工中 ....', //网站描述
   base: '/electron-vue3-quiet-doc', //  部署时的路径 默认 /  可以使用二级地址 /base/
   lang: 'en-US', //语言
   // 相当于html中<head>标签
@@ -25,15 +26,20 @@ export default defineConfig({
     //   头部导航
     nav: [
       { text: '关于', link: '/about/' },
+
       {
-        text: '仓库地址',
-        link: 'https://github.com/TaiAiAc/electron-vue3-quiet-doc.git'
-      },
-      {
-        text: '友情连接',
-        link: 'https://zh-sky.gitee.io/electron-vue-template-doc/'
-      },
-      { text: version, link: '/about/' }
+        text: version,
+        items: [
+          {
+            text: '仓库地址',
+            link: 'https://github.com/TaiAiAc/electron-vue3-quiet-doc.git'
+          },
+          {
+            text: '友情连接',
+            link: 'https://zh-sky.gitee.io/electron-vue-template-doc/'
+          }
+        ]
+      }
     ]
   }
 })
