@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'electron-vue3-quiet', // 网站标题
   description:
     '一个持续更新,坚持使用最新技术的,比较激进的桌面端脚手架! (●ˇ∀ˇ●) ,持续施工中 ....', //网站描述
+  base:'/electron-vue3-quiet-doc',
   lang: 'en-US', //语言
   // 相当于html中<head>标签
   head: [
