@@ -4,7 +4,7 @@ import { version } from '../../package.json'
 export default defineConfig({
   title: 'electron-vue3-quiet', // 网站标题
   description: 'electron-vue3-quiet-doc', //网站描述
-  // base: '/', //  部署时的路径 默认 /  可以使用二级地址 /base/
+  base: '/electron-vue3-quiet-doc', //  部署时的路径 默认 /  可以使用二级地址 /base/
   lang: 'en-US', //语言
   // 相当于html中<head>标签
   head: [
