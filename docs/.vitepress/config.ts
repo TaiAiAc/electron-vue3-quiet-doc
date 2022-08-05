@@ -7,15 +7,7 @@ export default defineConfig({
     '一个持续更新,坚持使用最新技术的,比较激进的桌面端脚手架! (●ˇ∀ˇ●) ,持续施工中 ....',
   base: '/electron-vue3-quiet-doc/',
   lang: 'en-US',
-  head: [
-    [
-      'link',
-      {
-        rel: 'icon',
-        href: 'favicon.ico'
-      }
-    ]
-  ],
+  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   markdown: {
     lineNumbers: true
   },
@@ -117,7 +109,8 @@ function introduceSidebar() {
       items: [
         { text: '项目介绍', link: '/introduce/preject' },
         { text: '快速上手', link: '/introduce/introduction' },
-        { text: '目录', link: '/introduce/catalogue' }
+        { text: '目录', link: '/introduce/catalogue' },
+        { text: '从其他项目迁移', link: '/introduce/migration' }
       ]
     },
     {
