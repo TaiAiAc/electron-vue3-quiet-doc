@@ -11,9 +11,14 @@ hero:
     - theme: brand
       text: 开始使用
       link: /introduce/introduction
+    - text: 介绍
+      link: /introduce/project
     - theme: alt
-      text: View on GitHub
+      text: GitHub
       link: https://github.com/TaiAiAc/electron-vue3-quiet.git
+    - theme: alt
+      text: 友情连接/sky
+      link: https://zh-sky.gitee.io/electron-vue-template-doc/
 
 features:
   - icon: 🖖

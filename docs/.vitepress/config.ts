@@ -45,7 +45,7 @@ function nav() {
   return [
     {
       text: '指引',
-      link: '/introduce/preject',
+      link: '/introduce/project',
       activeMatch: '/introduce|main|renderer|config|builder/'
     },
     { text: '关于', link: '/about/', activeMatch: '/about/' },
@@ -107,7 +107,7 @@ function introduceSidebar() {
     {
       text: '介绍',
       items: [
-        { text: '项目介绍', link: '/introduce/preject' },
+        { text: '项目介绍', link: '/introduce/project' },
         { text: '快速上手', link: '/introduce/introduction' },
         { text: '目录', link: '/introduce/catalogue' },
         { text: '从其他项目迁移', link: '/introduce/migration' }

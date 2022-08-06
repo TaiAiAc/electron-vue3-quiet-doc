@@ -1,4 +1,10 @@
-# 目录介绍
+---
+title: 目录介绍
+---
+
+# {{ $frontmatter.title }}
+
+## 概览
 
 ```js
 |-- electron-vue3-quiet
@@ -20,3 +26,33 @@
     |   |-- types  # 全局类型定义
     |-- test  # 测试文件
 ```
+
+## src
+
+### common
+
+### types
+
+### enums
+
+### main
+
+### preload
+
+### renderer
+
+## .env
+
+## scripts
+
+## public
+
+## build
+
+## dist
+
+## icons
+
+## logs
+
+## out
