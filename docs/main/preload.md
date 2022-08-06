@@ -1,1 +1,5 @@
-# preload
+---
+title: preload
+---
+
+# {{ $frontmatter.title }}

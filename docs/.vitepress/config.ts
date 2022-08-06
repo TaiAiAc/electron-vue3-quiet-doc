@@ -116,8 +116,10 @@ function introduceSidebar() {
     {
       text: '主进程',
       items: [
+        { text: '介绍', link: '/main/' },
         { text: '预加载', link: '/main/preload' },
-        { text: 'ipc通信', link: '/main/ipc' }
+        { text: 'ipc通信', link: '/main/ipc' },
+        { text: 'typeorm', link: '/main/typeorm' }
       ]
     },
     {
