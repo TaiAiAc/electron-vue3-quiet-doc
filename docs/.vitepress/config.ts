@@ -33,7 +33,10 @@ export default defineConfig({
       '/about/': [
         {
           text: '关于',
-          items: [{ text: '文档配置', link: '/about/' }]
+          items: [
+            { text: '文档配置', link: '/about/' },
+            { text: '性能优化', link: '/about/optimization' }
+          ]
         }
       ],
       ...introduceSidebar()
@@ -48,7 +51,11 @@ function nav() {
       link: '/introduce/project',
       activeMatch: '/introduce|main|renderer|config|builder/'
     },
-    { text: '关于', link: '/about/', activeMatch: '/about/' },
+    {
+      text: '关于',
+      link: '/about/',
+      activeMatch: '/about/'
+    },
     {
       text: '相关文档',
       items: [
@@ -117,9 +124,15 @@ function introduceSidebar() {
       text: '主进程',
       items: [
         { text: '介绍', link: '/main/' },
+        { text: 'app', link: '/main/app' },
+        { text: '路径', link: '/main/path' },
+        { text: '托盘', link: '/main/tray' },
+        { text: '菜单', link: '/main/menu' },
+        { text: '窗口', link: '/main/browserWindow' },
         { text: '预加载', link: '/main/preload' },
         { text: 'ipc通信', link: '/main/ipc' },
-        { text: 'typeorm', link: '/main/typeorm' }
+        { text: 'typeorm', link: '/main/typeorm' },
+        { text: '其他', link: '/main/rests' }
       ]
     },
     {

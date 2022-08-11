@@ -1,5 +1,5 @@
 ---
-title: Preload
+title: Tray
 ---
 
 # {{ $frontmatter.title }}
